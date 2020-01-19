@@ -4,8 +4,6 @@ f(x) = \frac{1}{2} x^TAx -b^Tx+c
 where x,b \in \Bbb R^n and A \in \Bbb R^n \times\Bbb R^n
 """
 
-import numpy as np
-
 from Constants import *
 
 dim = 2
