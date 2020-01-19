@@ -8,4 +8,4 @@ http://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf
 
 1. Some Recalls from Linear Algebra
 
-1-1. QR matrix factorization and Back-substitution
+1-1. QR Matrix Factorization and Back-substitution
