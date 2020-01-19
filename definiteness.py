@@ -12,6 +12,7 @@ def check_positive_definite(A: type_A):
     """
     M = A + A.T
     # How to check symmetric matrix is positive-definite
+    # Check Gershgorin circle theorem
     pass
 
 
