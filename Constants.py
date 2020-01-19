@@ -11,9 +11,9 @@ c = 0.0
 # Types to be used
 dim = 2
 type_x = Array[float, dim, 1]
-type_A: Array[float, dim, dim]
-type_b: Array[float, dim, 1]
-type_c: float
+type_A = Array[float, dim, dim]
+type_b = Array[float, dim, 1]
+type_c = float
 
 if __name__ == "__main__":
     pass
