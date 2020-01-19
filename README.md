@@ -9,6 +9,8 @@ Pythonic implementation of __["An Introduction to the Conjugate Gradient Method 
 
 ## Figures
 
+#### Figure 2
 <p align="center">
-  <img src="/figures/2.png" width="497" height="370">
+  <img src="/figures/2.png">
 </p>
+
