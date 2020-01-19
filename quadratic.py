@@ -11,10 +11,12 @@ from nptyping import Array
 dim = 2
 
 
-def f(x: Array[float, dim, 1],
-      A: Array[float, dim, dim],
-      b: Array[float, dim, 1],
-      c: float):
+def f(
+    x: Array[float, dim, 1],
+    A: Array[float, dim, dim],
+    b: Array[float, dim, 1],
+    c: float,
+):
     return 0.5 * x.T * A * x - b.T * x + c
 
 
