@@ -47,13 +47,21 @@ def figure2(A, b, c):
             x = np.mat([[x1[i, j]], [x2[i, j]]])
             zs[i, j] = quadratic.f(x, A, b, c)
     qf.plot_surface(x1, x2, zs, rstride=1, cstride=1, cmap=cm.coolwarm, linewidth=0)
-    plt.show()
+    # plt.show()
     return x1, x2, zs
 
 
+def figure3(x1, x2, zs):
+    plt.figure(figsize=(6, 6))
+    cp = plt.contour(x1, x2, zs, 20)
+    plt.clabel(cp, inline=1, fontsize=10)
+    plt.show()
+
+
 if __name__ == "__main__":
-    figure1(A, b)
-    # figure2(A, b, c)
+    # figure1(A, b)
+    x1, x2, zs = figure2(A, b, c)
+    figure3(x1, x2, zs)
     pass
 
 
