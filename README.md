@@ -3,8 +3,8 @@ Pythonic implementation of __["An Introduction to the Conjugate Gradient Method 
 
 ## What is Conjugate-Gradient(CG)-Method?
 Iterative method for solving large systems of linear equations. CG is effective
-for systems of the form Ax = b where x is an unknown vector, b is a known vector, and 
-A is a known, square, symmetric, positive-definite (or positive-indefinite) matrix
+for systems of the form Ax = b where x is an unknown vector, b is a known vector, 
+and A is a known, square, symmetric, positive-definite (or positive-indefinite) matrix
 
 ## Table of Contents
 
